@@ -1,0 +1,73 @@
+reference-tutorial point
+          w3schools
+
+CSS stands for Cascading Style Sheets
+           Cascading: Falling of Styles
+           Style: Adding designs/Styling our HTML tags
+           Sheets: Writing our style in different documents
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files
+It is a style sheet language which is used to describe the look and formatting of a document written in markup language. 
+It provides an additional feature to HTML. 
+It is generally used with HTML to change the style of web pages and user interfaces.
+
+Why use CSS
+
+Solves a big problem
+Saves a lot of time
+Provide more attributes
+
+CSS Syntax
+
+ Selector {
+  		      Property 1 : value;
+            Property 2 : value;
+            Property 3 : value;
+             }
+             
+ There are 3 ways to write CSS in our HTML file.
+         Inline CSS
+            <h3 style=” color:red”> Have a great day </h3>
+         Internal CSS
+            < style>
+              h1{
+                     color:red;
+                   }
+     </style>  
+         External CSS
+                <head>
+               <link rel="stylesheet" type="text/css" href="name of the Css file">
+                </head>
+            h1{
+                     color:red;         //.css file
+                 }
+         
+  CSS Selectors
+The selector is used to target elements and apply CSS 
+Three simple selectors
+Element Selector 
+    h1
+     {
+      Color: red;
+     }
+Id Selector
+     #unique
+     {
+      Color: red;
+     }
+<h1 id=”unique”> Hi </p>
+.Class Selector
+      group
+     {
+      Color: red;
+     }
+<h1 class=”group”> Hi </p>
+
+   CSS Colors
+       RGB
+This starts with RGB and takes 3 parameter
+       HEX
+Hex code starts with # and comprises of 6 numbers which are further divided into 3 sets
+       RGBA
+This starts with RGB and takes 4 parameter
