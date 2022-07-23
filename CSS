@@ -1,6 +1,3 @@
-reference-tutorial point
-          w3schools
-
 CSS stands for Cascading Style Sheets
            Cascading: Falling of Styles
            Style: Adding designs/Styling our HTML tags
@@ -36,6 +33,7 @@ CSS Syntax
                    }
      </style>  
          External CSS
+         
                 <head>
                <link rel="stylesheet" type="text/css" href="name of the Css file">
                 </head>
@@ -71,3 +69,7 @@ This starts with RGB and takes 3 parameter
 Hex code starts with # and comprises of 6 numbers which are further divided into 3 sets
        RGBA
 This starts with RGB and takes 4 parameter
+
+reference-tutorial point
+          w3schools
+          mygreat learning
